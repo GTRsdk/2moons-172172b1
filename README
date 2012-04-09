@@ -1,0 +1,18 @@
+2Moons is an open source browsergame engine.
+
+The goal of this is to get a working english version of 2Moons 1.7.2172 beta 1.
+
+To install on a Debian computer, you will need to first run:
+apt-get install php5 php-mysql mysql-server 
+
+Next, cd to /var/www/ then git clone git://github.com/GTRsdk/2moons-172172b1.git
+
+File permissions may have to be changed for the installer to be able to write data.
+
+Make a MySQL database for 2Moons (mysql -u root -p  then  CREATE DATABASE 2moons_172172b1_en;   then  GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER, CREATE TEMPORARY TABLES, LOCK TABLES
+  ON  2moons_172172b1_en.* TO 'user'@'localhost' IDENTIFIED BY 'password'; )
+
+If you do not have a MySQL user set up yet, be sure to make one before the last command of the 3 listed at the Make a MySQL database.
+
+
+Next, you should be able to go to a web browser (Firefox or Iceweasel (if you use Debian) is recommended) to http://127.0.0.1/2moons-172172b1 and begin installation.
