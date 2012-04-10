@@ -3,7 +3,7 @@
 The goal of this is to get a working english version of 2Moons 1.7.2172 beta 1.
 
 To install on a Debian computer, you will need to first run:
-apt-get install php5 php-mysql mysql-server 
+apt-get install php5 php5-mysql mysql-server apache2 
 
 Next, cd to /var/www/ then git clone git://github.com/GTRsdk/2moons-172172b1.git
 
