@@ -27,12 +27,12 @@
  * @link http://code.google.com/p/2moons/
  */
  
-$LNG['ub_points']		= 'Points';
-$LNG['ub_fleets']		= 'Fleets';
-$LNG['ub_researh']		= 'Research';
-$LNG['ub_buildings']	= 'Buildings';
-$LNG['ub_defenses']		= 'Defenses';
+$LNG['ub_points']		= 'Punkte';
+$LNG['ub_fleets']		= 'Flotte';
+$LNG['ub_researh']		= 'Forschung';
+$LNG['ub_buildings']	= 'Gebaude';
+$LNG['ub_defenses']		= 'Verteidigung';
 
-$LNG['ub_fights']		= 'Battles';
+$LNG['ub_fights']		= 'Kämpfe';
 $LNG['ub_quote']		= 'Quote';
 $LNG['ub_rank']			= 'Rank';
