@@ -1,6 +1,6 @@
-<h2>Der Installer ist gespeert!</h2>
-<p>Um den Installer zu aktivieren, muss die Datei ENABLE_INSTALL_TOOL erstellt werden.</p>
+<h2>The installer is disabled</h2>
+<p>In order to enable the installer, ENABLE_INSTALL_TOOL must be present in the includes/ folder./p>
 <ul>
-    <li>In dem includes/ Ordner, erstelle eine Datei ENABLE_INSTALL_TOOL. Der Dateiname muss in Großbuchstaben sein. Die Datei selbst kann leer sein.</li>
+    <li>In the includes/ folder, create ENABLE_INSTALL_TOOL. The file name must be uppercase and the file itself should not be empty.</li>
 </ul>
-<p>Wegen der Sicherheits ist es sehr empfehlenswert, die Datei zu umbennnen oder diese zu löschen, wenn die Installien fertig ist.</p>
+<p>For security purposes, it is highly recommended to rename the file or delete it when you are finished with installation.</p>
